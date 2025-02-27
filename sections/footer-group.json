@@ -14,7 +14,7 @@
     "custom_liquid_8zg4Px": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script src=\"\" defer></script>",
+        "custom_liquid": "<script src=\"{{ \"dn_global.js\" | asset_url }}\" defer></script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
