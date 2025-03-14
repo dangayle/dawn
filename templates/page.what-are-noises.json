@@ -19,7 +19,7 @@
     "featured_collection_rnVJYL": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "frontpage",
         "products_to_show": 4,
         "title": "Featured collection",
         "heading_size": "h1",
