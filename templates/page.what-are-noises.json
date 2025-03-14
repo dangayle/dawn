@@ -100,10 +100,10 @@
     "custom_liquid_98kbwj": {
       "type": "custom-liquid",
       "custom_css": [
-        "p.date{display: flex; align-content: self-end}"
+        ".todays-date {display: flex; align-content: self-end;}"
       ],
       "settings": {
-        "custom_liquid": "<p class=\"date\">{{ \"now\" | date: \"%Y-%m-%d\" }}</p>",
+        "custom_liquid": "{{ \"now\" | date: \"%Y-%m-%d\" }}",
         "color_scheme": "scheme-3",
         "padding_top": 40,
         "padding_bottom": 52
